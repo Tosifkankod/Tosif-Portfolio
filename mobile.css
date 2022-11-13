@@ -1,0 +1,216 @@
+@media screen and (max-device-width: 500px) and (orientation: portrait) {
+  .link {
+    display: none;
+  }
+
+  .image_container {
+    width: 90%;
+    background-position: center;
+  }
+  .arrow{
+    display: none;
+  }
+  .changingtext-wrapper {
+    position: absolute;
+    box-sizing: content-box;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -40%);
+    height: 80px;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .words {
+    overflow: hidden;
+  }
+
+  .changingtext-wrapper span {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 40px;
+    padding: 0 10px;
+    font-weight: 500;
+    animation: spin_words 6s infinite;
+  }
+  /* skills============================================= */
+  .skill_container {
+    position: relative;
+    /* z-index: 1; */
+    width: 100%;
+    height: 110vh;
+    background: rgb(48, 47, 47);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .skills_text_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .skill_sets {
+    max-width: 1;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
+    grid-row-end: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .skill1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    cursor: pointer;
+  }
+  .express {
+    font-size: 30px;
+  }
+  .skill1 img {
+    width: 40%;
+    height: auto;
+    padding: 5px 5px;
+    object-fit: contain;
+  }
+
+  .skill1 h3 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .skill1:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  /* ABOUT US */
+  .about_page_container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(40, 39, 39);
+  }
+
+  .about_me_line {
+    width: 80%;
+    color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 3rem;
+    transform: translate(-30%, -30%);
+  }
+  .about_me_line span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .paragraph {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-60%, -70%);
+    font-size: 1rem;
+    color: white;
+
+    font-family: "AvenirLight";
+  }
+
+  /* contact page container */
+  .contact_page_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(30, 30, 30);
+    font-size: 1rem;
+    padding: 5px;
+    object-fit: contain;
+  }
+  .contact-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .links_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .link_items {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.18) 0px 2px 4px;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  .linkedin_container a {
+    text-decoration: none;
+    color: white;
+  }
+  .feed_img_container {
+    width: 20%;
+    height: 2rem;
+    padding: 0  ;
+  }
+  .feed_img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain ;
+  }
+  .contact_form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+  .contact_img_container {
+    width: 20%;
+    height: 2rem;
+    padding: 0;
+  }
+  .contact_img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .contact_item_container {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    padding: 5px;
+  }
+  .contact_item_container h3 {
+    color: white;
+    font-weight: 200;
+  }
+}
